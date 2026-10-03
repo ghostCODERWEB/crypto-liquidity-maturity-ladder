@@ -1,0 +1,21 @@
+{
+  "ending_balance": 15,
+  "first_shortfall": 2,
+  "funding_required": 5,
+  "timeline": [
+    {
+      "balance": -5,
+      "inflow": 0,
+      "outflow": 15,
+      "shortfall": 5,
+      "timestamp": 2
+    },
+    {
+      "balance": 15,
+      "inflow": 20,
+      "outflow": 0,
+      "shortfall": 0,
+      "timestamp": 3
+    }
+  ]
+}

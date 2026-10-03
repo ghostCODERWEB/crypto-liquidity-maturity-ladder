@@ -1,0 +1,17 @@
+{
+  "liquid": 10,
+  "inflows": [
+    {
+      "id": "i",
+      "timestamp": 3,
+      "amount": 20
+    }
+  ],
+  "obligations": [
+    {
+      "id": "o",
+      "timestamp": 2,
+      "amount": 15
+    }
+  ]
+}

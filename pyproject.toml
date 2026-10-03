@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-liquidity-maturity-ladder"
+version = "0.1.0"
+description = "Compare liquid reserves and scheduled unlocks against dated obligations with earliest shortfall detection."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-liquidity-maturity-ladder = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
